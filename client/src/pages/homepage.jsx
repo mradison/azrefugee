@@ -8,23 +8,23 @@ function Homepage({ TasksValue }) {
   return (
     <main className="main">
       <div className="welcome">
-      <h1 style={{ textDecoration: "underline" }}>Welcome to Mesa Pioneer Construction</h1>
+      <h1 style={{ textDecoration: "underline" }}>Welcome to the Arizona Refugee Center</h1>
       </div>
 
       <div className="friend">
         <h3>Your Friend in the Constuction Business</h3>
       </div>
 
-      <section className="ourServices">
-        <h2 style={{ textDecoration: "underline" }}>Our Services</h2>
+      <section className="ourInvolved">
+        <h2 style={{ textDecoration: "underline" }}>Our Involved</h2>
         <ul>
           <li>Residential Construction</li>
           <li>Renovation and Remodeling</li>
         </ul>
       </section>
 
-      <section className="portfolio">
-        <h2 style={{ textDecoration: "underline" }}>Portfolio</h2>
+      <section className="mission">
+        <h2 style={{ textDecoration: "underline" }}>Mission</h2>
         <div className="imageContainer">
         <p className="LCText">Before</p>
           <div className="imageItem">

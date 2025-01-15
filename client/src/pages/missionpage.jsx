@@ -2,11 +2,11 @@ import OldroomJPG from "../assets/oldroom.jpg";
 import HalfwayroomJPG from "../assets/halfway.jpg";
 import NewroomJPG from "../assets/newroom.jpg";
 
-function Portfoliopage({ TasksValue }) {
+function Missionpage({ TasksValue }) {
   return (
     <main className="main">
-      <section className="portfolio">
-        <h1 style={{ textDecoration: "underline" }}>Portfolio</h1>
+      <section className="mission">
+        <h1 style={{ textDecoration: "underline" }}>Our Mission</h1>
         <div className="imageContainer">
         <p className="LCText">Before</p>
           <div className="imageItem">
@@ -29,4 +29,4 @@ function Portfoliopage({ TasksValue }) {
     </main>
   );
 }
-export default Portfoliopage;
+export default Missionpage;

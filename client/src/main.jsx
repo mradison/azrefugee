@@ -5,9 +5,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css'
 import App from './App.jsx'
 import Homepage from './pages/homepage.jsx';
-import Servicespage from './pages/servicespage.jsx';
+import Involvedpage from './pages/involvedpage.jsx';
 import Contactuspage from './pages/contactuspage.jsx';
-import Portfoliopage from './pages/portfoliopage.jsx';
+import Missionpage from './pages/missionpage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -27,11 +27,11 @@ const router = createBrowserRouter([
       //   element: <Signup />
       // }, 
       {
-        path: '/services',
-        element: <Servicespage />
+        path: '/involved',
+        element: <Involvedpage />
       },{
-        path: '/portfolio',
-        element: <Portfoliopage />
+        path: '/mission',
+        element: <Missionpage />
       },{
         path: '/contact',
         element: <Contactuspage />

@@ -44,7 +44,7 @@ const Footer = () => {
           <div className="flex-item"><span>Disclosures</span></div>
         </div>
           <div>
-        <h4 className="copyright">&copy; {new Date().getFullYear()} - Mesa Pioneer Construction</h4>
+        <h4 className="copyright">&copy; {new Date().getFullYear()} - Arizona Refugee Center</h4>
         </div>
       </div>
     </footer>

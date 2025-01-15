@@ -20,14 +20,14 @@ const Navbar = () => {
                                         Home
                                     </button>
                                 </Link>                  
-                                <Link className="btn btn-lg btn-primary m-2" to="/services">
+                                <Link className="btn btn-lg btn-primary m-2" to="/involved">
                                     <button>
-                                        Services
+                                        Involved
                                     </button>
                                 </Link>    
-                                <Link className="btn btn-lg btn-primary m-2" to="/portfolio">
+                                <Link className="btn btn-lg btn-primary m-2" to="/mission">
                                     <button>
-                                        Portfolio
+                                        Mission
                                     </button>
                                 </Link >
                                 <Link className="btn btn-lg btn-primary m-2" to="/contact">
