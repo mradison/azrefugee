@@ -1,64 +1,34 @@
+import React from "react";
 import { Link } from "react-router-dom";
-// import Auth from "../../utils/auth";
-// import InstallButton from "../../pages/InstallButton";
+import "./Navbar.css"; 
 
 const Navbar = () => {
-    const logout = (event) => {
-        event.preventDefault();
-        // Auth.logout();
-    };
+  return (
+    <nav className="navbar">
+      <div className="navbar-container">
+        {/* Logo */}
+        <div className="navbar-logo">
+          <Link to="/">🏡 Arizona Refugee Center</Link>
+        </div>
 
-    return(
-        <>
-            <nav>
-                <div className="3btn">
-                    {/* {Auth.loggedIn() ? ( */}
-                        <>
-                            <div className="pageBtn">
-                                <Link className="btn btn-lg btn-primary m-2" to="/">
-                                    <button>
-                                        Home
-                                    </button>
-                                </Link>                  
-                                <Link className="btn btn-lg btn-primary m-2" to="/involved">
-                                    <button>
-                                        Involved
-                                    </button>
-                                </Link>    
-                                <Link className="btn btn-lg btn-primary m-2" to="/mission">
-                                    <button>
-                                        Mission
-                                    </button>
-                                </Link >
-                                <Link className="btn btn-lg btn-primary m-2" to="/contact">
-                                    <button>
-                                        Contact
-                                    </button>
-                                </Link>
-                                    {/* <InstallButton /> */}
-                            </div>
-                        </>
-                    {/* ) : ( */}
-                        <>
-                            {/* <div className="logBtn">
-                                    <Link className="btn btn-lg btn-primary m-2" to="/login">
-                                        <button>
-                                        Login
-                                        </button>
-                                    </Link>
-                                    <Link className="btn btn-lg btn-light m-2" to="/signup">
-                                        <button>
-                                        Signup
-                                        </button>
-                                    </Link>
-                            </div> */}
-                        </>
-                    {/* )} */}
-                </div>
-            </nav>
-        </>
-    );
-
+        {/* Navigation Links */}
+        <div className="navbar-links">
+          <Link to="/" className="navbar-link">
+            🏠 Home
+          </Link>
+          <Link to="/involved" className="navbar-link">
+            🤝 Get Involved
+          </Link>
+          <Link to="/mission" className="navbar-link">
+            🎯 Mission
+          </Link>
+          <Link to="/contact" className="navbar-link">
+            📞 Contact Us
+          </Link>
+        </div>
+      </div>
+    </nav>
+  );
 };
 
 export default Navbar;
